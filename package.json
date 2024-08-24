@@ -1,0 +1,10 @@
+{
+	"scripts": {
+		"generate_679":"openapi-generator-cli generate -g java -i TMF679-Product_Offering_Qualification-v5.0.0.oas.yaml -o ./gencode/tmf679",
+		"generate_681":"openapi-generator-cli generate -g java -i TMF681.json -o ./gencode/tmf681"
+	},
+	"dependencies": {
+		"@openapitools/openapi-generator-cli": "^2.13.5"
+	},
+	"packageManager": "pnpm@9.0.6+sha1.648f6014eb363abb36618f2ba59282a9eeb3e879"
+}
